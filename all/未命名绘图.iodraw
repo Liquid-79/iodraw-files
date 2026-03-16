@@ -1,0 +1,75 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="第 1 页" id="K2kFdGjojJahmfiK2jAh">
+    <mxGraphModel dx="1562" dy="909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pdRMCo7QrCJi7jyH7yh7-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#4672c4;strokeWidth=2;fontFamily=微软雅黑;" parent="1" source="pdRMCo7QrCJi7jyH7yh7-2" target="pdRMCo7QrCJi7jyH7yh7-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pdRMCo7QrCJi7jyH7yh7-2" value="&lt;span style=&quot;background-color: initial;&quot;&gt;分析扰动影响，&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;分割调度计划&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#2e4f8d;strokeWidth=2;fontFamily=微软雅黑;align=center;" parent="1" vertex="1">
+          <mxGeometry x="40" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pdRMCo7QrCJi7jyH7yh7-3" value="任务重排序" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=微软雅黑;strokeColor=#2e4f8d;strokeWidth=2;align=center;" parent="1" vertex="1">
+          <mxGeometry x="40" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pdRMCo7QrCJi7jyH7yh7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#4672c4;strokeWidth=2;fontFamily=微软雅黑;" parent="1" source="pdRMCo7QrCJi7jyH7yh7-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pdRMCo7QrCJi7jyH7yh7-7" value="输入当前计划" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=#2e4f8d;fillColor=#bdd0e9;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="40" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pdRMCo7QrCJi7jyH7yh7-8" value="输出重调度计划&lt;div&gt;并结束&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;strokeColor=#2e4f8d;fillColor=#bdd0e9;fontFamily=微软雅黑;" parent="1" vertex="1">
+          <mxGeometry x="40" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AUTa4Ah01qpuzDfp9rNN-7" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4672c4;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=微软雅黑;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="pdRMCo7QrCJi7jyH7yh7-3" target="AUTa4Ah01qpuzDfp9rNN-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="350" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AUTa4Ah01qpuzDfp9rNN-10" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4672c4;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=微软雅黑;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="AUTa4Ah01qpuzDfp9rNN-6" target="AUTa4Ah01qpuzDfp9rNN-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AUTa4Ah01qpuzDfp9rNN-19" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=#2e4f8d;strokeWidth=2;fontFamily=微软雅黑;fontSize=12;fontColor=default;fillColor=default;" parent="AUTa4Ah01qpuzDfp9rNN-10" vertex="1" connectable="0">
+          <mxGeometry x="-0.624" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AUTa4Ah01qpuzDfp9rNN-16" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#4672c4;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=微软雅黑;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" parent="1" source="AUTa4Ah01qpuzDfp9rNN-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="410" />
+              <mxPoint x="210" y="550" />
+              <mxPoint x="100" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AUTa4Ah01qpuzDfp9rNN-18" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;strokeColor=#2e4f8d;strokeWidth=2;fontFamily=微软雅黑;fontSize=12;fontColor=default;fillColor=default;" parent="AUTa4Ah01qpuzDfp9rNN-16" vertex="1" connectable="0">
+          <mxGeometry x="-0.3089" y="-2" relative="1" as="geometry">
+            <mxPoint y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AUTa4Ah01qpuzDfp9rNN-6" value="有可行窗口" style="rhombus;whiteSpace=wrap;html=1;fontFamily=微软雅黑;strokeColor=#2e4f8d;strokeWidth=2;rounded=0;align=center;verticalAlign=middle;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="20" y="380" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AUTa4Ah01qpuzDfp9rNN-9" value="挤占&lt;span style=&quot;background-color: initial;&quot;&gt;低优先级&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;任务&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=微软雅黑;strokeColor=#2e4f8d;strokeWidth=2;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AUTa4Ah01qpuzDfp9rNN-13" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4672c4;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=微软雅黑;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="AUTa4Ah01qpuzDfp9rNN-9" target="AUTa4Ah01qpuzDfp9rNN-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="620" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AUTa4Ah01qpuzDfp9rNN-20" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4672c4;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=微软雅黑;fontSize=12;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" source="AUTa4Ah01qpuzDfp9rNN-12" target="pdRMCo7QrCJi7jyH7yh7-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AUTa4Ah01qpuzDfp9rNN-12" value="执行资源分配" style="whiteSpace=wrap;html=1;fontFamily=微软雅黑;strokeColor=#2e4f8d;strokeWidth=2;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
